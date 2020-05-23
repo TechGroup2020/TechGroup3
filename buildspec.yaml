@@ -24,9 +24,9 @@ phases:
     commands:
       - aws s3 sync ./dist/ s3://techgroup3 --acl 'public-read' --delete
   artifacts:
-  files:
+   files:
     - "**/*"
-  discard-paths: no
-  base-directory: dist/    
+   discard-paths: no
+   base-directory: dist/    
                
 
