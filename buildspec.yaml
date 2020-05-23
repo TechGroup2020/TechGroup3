@@ -20,6 +20,8 @@ phases:
       # - echo testing...
       # - echo building...
       - ng build --prod
-post_build:
- commands:
- -aws s3 sync ./dist/ s3://techgroup3 --acl 'public-read' --delete
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: dist/
