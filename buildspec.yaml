@@ -20,10 +20,14 @@ phases:
       # - echo testing...
       # - echo building...
       - ng build --prod
+  post_build:
+    commands:
+      - aws s3 sync ./dist/techgroup3/techgroup3-1/newproj s3://angular-devops-production --acl 'public-read' --delete      
+      
 artifacts:
   files:
     - "**/*"
   discard-paths: no
-  base-directory: dist/
+  base-directory: dist/techgroup3/techgroup3-1/newproj
   
 
