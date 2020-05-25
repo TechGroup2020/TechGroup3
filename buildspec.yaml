@@ -25,4 +25,5 @@ artifacts:
     - "**/*"
   discard-paths: no
   base-directory: dist/
+  
 
