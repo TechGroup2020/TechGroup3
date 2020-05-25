@@ -22,7 +22,7 @@ phases:
       - ng build --prod
   post_build:
     commands:
-      - aws s3 sync ./dist/techgroup3/techgroup3-1/newproj s3://angular-devops-production --acl 'public-read' --delete      
+      - aws s3 sync ./dist/techgroup3/techgroup3-1/newproj s3://techgroup3 --acl 'public-read' --delete      
       
 artifacts:
   files:
