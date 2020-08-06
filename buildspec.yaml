@@ -22,7 +22,7 @@ phases:
       - ng build --prod
   post_build:
     commands:
-      - aws s3 sync ./dist/newproj s3://techgroup-pipe --acl 'public-read' --delete    
+      - aws s3 sync ./dist/newproj s3://techgroup-pipe --acl 'public-read' --delete--    
    
 
 
