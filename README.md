@@ -1,4 +1,4 @@
-#Connected to aws 
+#Checking the image creation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
