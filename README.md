@@ -1,8 +1,5 @@
 #Checking the image creation with jenkins
 the testing new project
-trhe testing
-only angular
-only angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
